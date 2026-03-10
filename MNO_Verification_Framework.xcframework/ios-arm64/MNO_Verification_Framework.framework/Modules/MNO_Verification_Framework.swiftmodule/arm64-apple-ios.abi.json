@@ -1,0 +1,1623 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MNO_Verification_Framework",
+    "printedName": "MNO_Verification_Framework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "BlusaltLivenessOnly",
+        "printedName": "BlusaltLivenessOnly",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VerificationResponse",
+        "printedName": "VerificationResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "livenessSuccess",
+            "printedName": "livenessSuccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BlusaltLivenessOnly.LivenessSuccess?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessSuccess",
+                    "printedName": "BlusaltLivenessOnly.LivenessSuccess",
+                    "usr": "s:19BlusaltLivenessOnly0B7SuccessV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26MNO_Verification_Framework0B8ResponseV15livenessSuccess19BlusaltLivenessOnly0hF0VSgvp",
+            "mangledName": "$s26MNO_Verification_Framework0B8ResponseV15livenessSuccess19BlusaltLivenessOnly0hF0VSgvp",
+            "moduleName": "MNO_Verification_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BlusaltLivenessOnly.LivenessSuccess?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessSuccess",
+                        "printedName": "BlusaltLivenessOnly.LivenessSuccess",
+                        "usr": "s:19BlusaltLivenessOnly0B7SuccessV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26MNO_Verification_Framework0B8ResponseV15livenessSuccess19BlusaltLivenessOnly0hF0VSgvg",
+                "mangledName": "$s26MNO_Verification_Framework0B8ResponseV15livenessSuccess19BlusaltLivenessOnly0hF0VSgvg",
+                "moduleName": "MNO_Verification_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerificationResponse",
+                "printedName": "MNO_Verification_Framework.VerificationResponse",
+                "usr": "s:26MNO_Verification_Framework0B8ResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26MNO_Verification_Framework0B8ResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s26MNO_Verification_Framework0B8ResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "MNO_Verification_Framework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26MNO_Verification_Framework0B8ResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s26MNO_Verification_Framework0B8ResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "MNO_Verification_Framework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:26MNO_Verification_Framework0B8ResponseV",
+        "mangledName": "$s26MNO_Verification_Framework0B8ResponseV",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlusaltLivenessOnly",
+        "printedName": "BlusaltLivenessOnly",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "_LocationEssentials",
+        "printedName": "_LocationEssentials",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterVerificationManager",
+        "printedName": "FlutterVerificationManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterVerificationManager",
+                "printedName": "MNO_Verification_Framework.FlutterVerificationManager",
+                "usr": "s:26MNO_Verification_Framework07FlutterB7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26MNO_Verification_Framework07FlutterB7ManagerC6sharedACvpZ",
+            "mangledName": "$s26MNO_Verification_Framework07FlutterB7ManagerC6sharedACvpZ",
+            "moduleName": "MNO_Verification_Framework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterVerificationManager",
+                    "printedName": "MNO_Verification_Framework.FlutterVerificationManager",
+                    "usr": "s:26MNO_Verification_Framework07FlutterB7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26MNO_Verification_Framework07FlutterB7ManagerC6sharedACvgZ",
+                "mangledName": "$s26MNO_Verification_Framework07FlutterB7ManagerC6sharedACvgZ",
+                "moduleName": "MNO_Verification_Framework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startVerificationSDK",
+            "printedName": "startVerificationSDK(_:clientId:appName:apiKey:isDev:sourceImage:metadata:livenessFacialComparisonType:startProcessOnGettingToFirstScreen:showLivenessResult:showScore:showThreshold:thresholdInPercent:webhookUrl:reference:timeoutDurationInSec:onComplete:onFailure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessFacialComparisonType",
+                "printedName": "BlusaltLivenessOnly.LivenessFacialComparisonType",
+                "hasDefaultArg": true,
+                "usr": "s:19BlusaltLivenessOnly0B20FacialComparisonTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String, MNO_Verification_Framework.VerificationResponse) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, MNO_Verification_Framework.VerificationResponse) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, MNO_Verification_Framework.VerificationResponse)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VerificationResponse",
+                            "printedName": "MNO_Verification_Framework.VerificationResponse",
+                            "usr": "s:26MNO_Verification_Framework0B8ResponseV"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26MNO_Verification_Framework07FlutterB7ManagerC05startB3SDK_8clientId7appName6apiKey5isDev11sourceImage8metadata28livenessFacialComparisonType0F29ProcessOnGettingToFirstScreen18showLivenessResult9showScore13showThreshold18thresholdInPercent10webhookUrl9reference20timeoutDurationInSec10onComplete9onFailureySo16UIViewControllerC_S3SSb10Foundation4DataVSSSg19BlusaltLivenessOnly08LivenesstuV0OSbSgA3_A3_A3_SdSgA_A_SiSgySS_AA0B8ResponseVtcSgySi_SStcSgtF",
+            "mangledName": "$s26MNO_Verification_Framework07FlutterB7ManagerC05startB3SDK_8clientId7appName6apiKey5isDev11sourceImage8metadata28livenessFacialComparisonType0F29ProcessOnGettingToFirstScreen18showLivenessResult9showScore13showThreshold18thresholdInPercent10webhookUrl9reference20timeoutDurationInSec10onComplete9onFailureySo16UIViewControllerC_S3SSb10Foundation4DataVSSSg19BlusaltLivenessOnly08LivenesstuV0OSbSgA3_A3_A3_SdSgA_A_SiSgySS_AA0B8ResponseVtcSgySi_SStcSgtF",
+            "moduleName": "MNO_Verification_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26MNO_Verification_Framework07FlutterB7ManagerC",
+        "mangledName": "$s26MNO_Verification_Framework07FlutterB7ManagerC",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlusaltLivenessOnly",
+        "printedName": "BlusaltLivenessOnly",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "ZipArchive",
+        "printedName": "ZipArchive",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MNOVerificationLivenessZipper",
+        "printedName": "MNOVerificationLivenessZipper",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "unzipFile",
+            "printedName": "unzipFile(atPath:toDestination:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26MNO_Verification_Framework29MNOVerificationLivenessZipperV9unzipFile6atPath13toDestinationySS_SStKF",
+            "mangledName": "$s26MNO_Verification_Framework29MNOVerificationLivenessZipperV9unzipFile6atPath13toDestinationySS_SStKF",
+            "moduleName": "MNO_Verification_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MNOVerificationLivenessZipper",
+                "printedName": "MNO_Verification_Framework.MNOVerificationLivenessZipper",
+                "usr": "s:26MNO_Verification_Framework29MNOVerificationLivenessZipperV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26MNO_Verification_Framework29MNOVerificationLivenessZipperVACycfc",
+            "mangledName": "$s26MNO_Verification_Framework29MNOVerificationLivenessZipperVACycfc",
+            "moduleName": "MNO_Verification_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:26MNO_Verification_Framework29MNOVerificationLivenessZipperV",
+        "mangledName": "$s26MNO_Verification_Framework29MNOVerificationLivenessZipperV",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LivenessOnlyArchiveUnzipper",
+            "printedName": "LivenessOnlyArchiveUnzipper",
+            "usr": "s:19BlusaltLivenessOnly0bC15ArchiveUnzipperP",
+            "mangledName": "$s19BlusaltLivenessOnly0bC15ArchiveUnzipperP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BlusaltLivenessOnly",
+        "printedName": "BlusaltLivenessOnly",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "_LocationEssentials",
+        "printedName": "_LocationEssentials",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ReactNativeVerificationManager",
+        "printedName": "ReactNativeVerificationManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ReactNativeVerificationManager",
+                "printedName": "MNO_Verification_Framework.ReactNativeVerificationManager",
+                "usr": "s:26MNO_Verification_Framework011ReactNativeB7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26MNO_Verification_Framework011ReactNativeB7ManagerC6sharedACvpZ",
+            "mangledName": "$s26MNO_Verification_Framework011ReactNativeB7ManagerC6sharedACvpZ",
+            "moduleName": "MNO_Verification_Framework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReactNativeVerificationManager",
+                    "printedName": "MNO_Verification_Framework.ReactNativeVerificationManager",
+                    "usr": "s:26MNO_Verification_Framework011ReactNativeB7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26MNO_Verification_Framework011ReactNativeB7ManagerC6sharedACvgZ",
+                "mangledName": "$s26MNO_Verification_Framework011ReactNativeB7ManagerC6sharedACvgZ",
+                "moduleName": "MNO_Verification_Framework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startVerificationSDK",
+            "printedName": "startVerificationSDK(_:clientId:appName:apiKey:isDev:sourceImage:livenessFacialComparisonType:startProcessOnGettingToFirstScreen:showLivenessResult:showScore:showThreshold:thresholdInPercent:webhookUrl:reference:metadata:timeoutDurationInSec:onComplete:onFailure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessFacialComparisonType",
+                "printedName": "BlusaltLivenessOnly.LivenessFacialComparisonType",
+                "hasDefaultArg": true,
+                "usr": "s:19BlusaltLivenessOnly0B20FacialComparisonTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String, MNO_Verification_Framework.VerificationResponse) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, MNO_Verification_Framework.VerificationResponse) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, MNO_Verification_Framework.VerificationResponse)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "VerificationResponse",
+                            "printedName": "MNO_Verification_Framework.VerificationResponse",
+                            "usr": "s:26MNO_Verification_Framework0B8ResponseV"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Int, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.Int, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26MNO_Verification_Framework011ReactNativeB7ManagerC05startB3SDK_8clientId7appName6apiKey5isDev11sourceImage28livenessFacialComparisonType0G29ProcessOnGettingToFirstScreen18showLivenessResult9showScore13showThreshold18thresholdInPercent10webhookUrl9reference8metadata20timeoutDurationInSec10onComplete9onFailureySo16UIViewControllerC_S3SSb10Foundation4DataV19BlusaltLivenessOnly08LivenesstuV0OS3bSgA2_SdSgSSSgA4_A4_SiSgySS_AA0B8ResponseVtcSgySi_SStcSgtF",
+            "mangledName": "$s26MNO_Verification_Framework011ReactNativeB7ManagerC05startB3SDK_8clientId7appName6apiKey5isDev11sourceImage28livenessFacialComparisonType0G29ProcessOnGettingToFirstScreen18showLivenessResult9showScore13showThreshold18thresholdInPercent10webhookUrl9reference8metadata20timeoutDurationInSec10onComplete9onFailureySo16UIViewControllerC_S3SSb10Foundation4DataV19BlusaltLivenessOnly08LivenesstuV0OS3bSgA2_SdSgSSSgA4_A4_SiSgySS_AA0B8ResponseVtcSgySi_SStcSgtF",
+            "moduleName": "MNO_Verification_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26MNO_Verification_Framework011ReactNativeB7ManagerC",
+        "mangledName": "$s26MNO_Verification_Framework011ReactNativeB7ManagerC",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MNO_Verification_Framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VerificationHelper",
+        "printedName": "VerificationHelper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerificationHelper",
+                "printedName": "MNO_Verification_Framework.VerificationHelper",
+                "usr": "c:@M@MNO_Verification_Framework@objc(cs)VerificationHelper"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26MNO_Verification_Framework0B6HelperC6sharedACvpZ",
+            "mangledName": "$s26MNO_Verification_Framework0B6HelperC6sharedACvpZ",
+            "moduleName": "MNO_Verification_Framework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerificationHelper",
+                    "printedName": "MNO_Verification_Framework.VerificationHelper",
+                    "usr": "c:@M@MNO_Verification_Framework@objc(cs)VerificationHelper"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26MNO_Verification_Framework0B6HelperC6sharedACvgZ",
+                "mangledName": "$s26MNO_Verification_Framework0B6HelperC6sharedACvgZ",
+                "moduleName": "MNO_Verification_Framework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerificationHelper",
+                "printedName": "MNO_Verification_Framework.VerificationHelper",
+                "usr": "c:@M@MNO_Verification_Framework@objc(cs)VerificationHelper"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MNO_Verification_Framework@objc(cs)VerificationHelper(im)init",
+            "mangledName": "$s26MNO_Verification_Framework0B6HelperCACycfc",
+            "moduleName": "MNO_Verification_Framework",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeviceID",
+            "printedName": "getDeviceID()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26MNO_Verification_Framework0B6HelperC11getDeviceIDSSyF",
+            "mangledName": "$s26MNO_Verification_Framework0B6HelperC11getDeviceIDSSyF",
+            "moduleName": "MNO_Verification_Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchLocation",
+            "printedName": "fetchLocation(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(_LocationEssentials.CLLocation?, Swift.String?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(_LocationEssentials.CLLocation?, Swift.String?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "_LocationEssentials.CLLocation?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CLLocation",
+                            "printedName": "_LocationEssentials.CLLocation",
+                            "usr": "c:objc(cs)CLLocation"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26MNO_Verification_Framework0B6HelperC13fetchLocation10completionyySo10CLLocationCSg_SSSgAItc_tF",
+            "mangledName": "$s26MNO_Verification_Framework0B6HelperC13fetchLocation10completionyySo10CLLocationCSg_SSSgAItc_tF",
+            "moduleName": "MNO_Verification_Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[_LocationEssentials.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "_LocationEssentials.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MNO_Verification_Framework@objc(cs)VerificationHelper(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s26MNO_Verification_Framework0B6HelperC15locationManager_18didUpdateLocationsySo010CLLocationF0C_SaySo0J0CGtF",
+            "moduleName": "MNO_Verification_Framework",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MNO_Verification_Framework@objc(cs)VerificationHelper(im)locationManager:didFailWithError:",
+            "mangledName": "$s26MNO_Verification_Framework0B6HelperC15locationManager_16didFailWithErrorySo010CLLocationF0C_s0J0_ptF",
+            "moduleName": "MNO_Verification_Framework",
+            "objc_name": "locationManager:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManagerDidChangeAuthorization",
+            "printedName": "locationManagerDidChangeAuthorization(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MNO_Verification_Framework@objc(cs)VerificationHelper(im)locationManagerDidChangeAuthorization:",
+            "mangledName": "$s26MNO_Verification_Framework0B6HelperC37locationManagerDidChangeAuthorizationyySo010CLLocationF0CF",
+            "moduleName": "MNO_Verification_Framework",
+            "objc_name": "locationManagerDidChangeAuthorization:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchThreshold",
+            "printedName": "fetchThreshold(isDev:apiKey:clientId:appName:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:26MNO_Verification_Framework0B6HelperC14fetchThreshold5isDev6apiKey8clientId7appName10completionySb_S3SySSSgctF",
+            "mangledName": "$s26MNO_Verification_Framework0B6HelperC14fetchThreshold5isDev6apiKey8clientId7appName10completionySb_S3SySSSgctF",
+            "moduleName": "MNO_Verification_Framework",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MNO_Verification_Framework@objc(cs)VerificationHelper",
+        "mangledName": "$s26MNO_Verification_Framework0B6HelperC",
+        "moduleName": "MNO_Verification_Framework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/folarin\/development\/ios_projects\/Frameworks\/BlusaltSDKS\/MNO_Verification_Framework\/MNO_Verification_Framework\/model\/VerificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 373,
+      "length": 17,
+      "value": "\"livenessSuccess\""
+    },
+    {
+      "filePath": "\/Users\/folarin\/development\/ios_projects\/Frameworks\/BlusaltSDKS\/MNO_Verification_Framework\/MNO_Verification_Framework\/FlutterManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 785,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/folarin\/development\/ios_projects\/Frameworks\/BlusaltSDKS\/MNO_Verification_Framework\/MNO_Verification_Framework\/FlutterManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 823,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/folarin\/development\/ios_projects\/Frameworks\/BlusaltSDKS\/MNO_Verification_Framework\/MNO_Verification_Framework\/FlutterManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 852,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/folarin\/development\/ios_projects\/Frameworks\/BlusaltSDKS\/MNO_Verification_Framework\/MNO_Verification_Framework\/FlutterManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 885,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/folarin\/development\/ios_projects\/Frameworks\/BlusaltSDKS\/MNO_Verification_Framework\/MNO_Verification_Framework\/ReactNativeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 765,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/folarin\/development\/ios_projects\/Frameworks\/BlusaltSDKS\/MNO_Verification_Framework\/MNO_Verification_Framework\/ReactNativeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 802,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/folarin\/development\/ios_projects\/Frameworks\/BlusaltSDKS\/MNO_Verification_Framework\/MNO_Verification_Framework\/ReactNativeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/folarin\/development\/ios_projects\/Frameworks\/BlusaltSDKS\/MNO_Verification_Framework\/MNO_Verification_Framework\/ReactNativeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 864,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
